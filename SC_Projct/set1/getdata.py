@@ -2,6 +2,8 @@ import tweepy
 import time
 import Queue
 
+print "Added line by Tasmia"
+
 consumer_key = "pDJxB8bzH3eV6ZYthzjgnqXty"
 consumer_secret = "60nbLAdK74cDtv3g7CQOl0FTWX1srbRrZeJlW7p9mqMwXaj8av"
 access_token = "1066418098893455361-BfoDumlviGj1r8Sbp228tq8pyGxa6n"
@@ -22,7 +24,7 @@ tweetCount = 20
 
 #for user in tweepy.Cursor(api.friends, screen_name="narendramodi").items():
  #   print('friend: ' + user.screen_name)
-    
+
 #user = api.get_user(name)
 #print user.followers_count
 
@@ -70,5 +72,5 @@ while not q.empty():
     except:
         time.sleep(60*15)
         continue
-       
+
 print q
